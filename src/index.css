@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+/* Light Mode Overrides for High Contrast & Visual Craft */
+.light-mode {
+  background-color: #f8fafc !important; /* slate-50 */
+  color: #0f172a !important; /* slate-900 */
+}
+
+.light-mode header {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #e2e8f0 !important;
+}
+
+.light-mode nav {
+  background-color: #f1f5f9 !important;
+  border-color: #cbd5e1 !important;
+}
+
+.light-mode main {
+  color: #0f172a !important;
+}
+
+.light-mode .bg-slate-900,
+.light-mode .bg-slate-950 {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #e2e8f0 !important;
+}
+
+.light-mode .bg-slate-900\/60,
+.light-mode .bg-slate-900\/80,
+.light-mode .bg-slate-900\/90,
+.light-mode .bg-slate-900\/95,
+.light-mode .bg-slate-800,
+.light-mode .bg-slate-800\/80,
+.light-mode .bg-slate-800\/90,
+.light-mode .bg-slate-800\/95 {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+.light-mode .text-slate-100,
+.light-mode .text-slate-200,
+.light-mode .text-slate-300 {
+  color: #1e293b !important; /* slate-800 */
+}
+
+.light-mode .text-slate-400 {
+  color: #475569 !important; /* slate-600 */
+}
+
+.light-mode .border-slate-800,
+.light-mode .border-slate-700 {
+  border-color: #cbd5e1 !important;
+}
+
+.light-mode .bg-slate-950\/80,
+.light-mode .bg-slate-950\/90 {
+  background-color: #f8fafc !important;
+}

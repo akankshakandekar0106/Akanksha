@@ -1,0 +1,10 @@
+{
+  "name": "KumbhSarthi",
+  "description": "Smart Kumbh Mela Crowd Management & Pilgrim Assistance System for Nashik with IoT Sensors, Supabase backend integration, Real-time Map, Safe Route Planner, Emergency SOS, and AI Assistance.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
